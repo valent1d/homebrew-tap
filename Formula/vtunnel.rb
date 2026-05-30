@@ -1,15 +1,15 @@
 class Vtunnel < Formula
   desc "Pleasant local tunnels powered by Cloudflare Tunnel"
   homepage "https://github.com/valent1d/vtunnel"
-  version "0.1.0-beta.3"
+  version "0.1.0-beta.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/valent1d/vtunnel/releases/download/v0.1.0-beta.3/vtunnel_v0.1.0-beta.3_darwin_arm64.tar.gz"
-      sha256 "4c9e75a3ca565327e1a387b46683b0a01e2291cda9c6d8c2a697c6514d76e3f1"
+      url "https://github.com/valent1d/vtunnel/releases/download/v0.1.0-beta.4/vtunnel_v0.1.0-beta.4_darwin_arm64.tar.gz"
+      sha256 "8efdbc1a2a016e3609289b3a219c1cacb32618600956496618e15520dc411e2a"
     else
-      url "https://github.com/valent1d/vtunnel/releases/download/v0.1.0-beta.3/vtunnel_v0.1.0-beta.3_darwin_amd64.tar.gz"
-      sha256 "8ce87628430bcc16324688ed6dbea7714b3496b1f0c833eb95fef8189366b3cd"
+      url "https://github.com/valent1d/vtunnel/releases/download/v0.1.0-beta.4/vtunnel_v0.1.0-beta.4_darwin_amd64.tar.gz"
+      sha256 "4dbeb710a946e8c974bb47e91beaa212092ecbd19c7e7a329f2107cd8af29654"
     end
   end
 
