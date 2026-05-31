@@ -1,15 +1,15 @@
-# Valent1d Vtunnel
+# 🍺 Valent1d's Homebrew tap 
 
 ## How do I install these formulae?
 
-`brew install valent1d/vtunnel/<formula>`
+`brew install valent1d/tap/<formula>`
 
-Or `brew tap valent1d/vtunnel` and then `brew install <formula>`.
+Or `brew tap valent1d/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "valent1d/vtunnel"
+tap "valent1d/tap"
 brew "<formula>"
 ```
 
